@@ -1,0 +1,70 @@
+#top .top_vx {
+    font-size: 20rem;
+    margin-top: 10rem;
+    display: none;
+}
+
+#top .top_vx span {
+    margin-left: 180rem;
+}
+
+#top .top_vx i {
+    font-size: 24rem;
+}
+
+#top .top_vx i:nth-of-type(1) {
+    margin-left: 90rem;
+}
+
+#top .top_vx i:nth-of-type(2) {
+    margin-left: 8rem;
+    font-size: 28rem;
+}
+
+#contain .c_vx {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#contain .c_vx ul li {
+    width: 100%;
+    height: 70rem;
+    background-color: rgb(255, 255, 255);
+}
+
+#contain .c_vx ul li img {
+    height: 45rem;
+    width: 45rem;
+    border-radius: 4rem;
+    float: left;
+    margin: 7rem;
+}
+
+#contain .c_vx ul li>div {
+    float: left;
+    border-bottom: 1rem solid rgb(224, 224, 224);
+    width: 330rem;
+}
+
+#contain .c_vx ul li>div>p:nth-of-type(2) {
+    font-size: 12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240rem;
+    padding-bottom: 10rem;
+}
+
+#contain .c_vx ul li div>p:nth-of-type(1) {
+    margin-top: 5rem;
+    position: relative;
+}
+
+#contain .c_vx ul li div>p>span {
+    font-weight: 100;
+    font-size: 10rem;
+    position: absolute;
+    top: 0rem;
+    right: 10rem;
+}

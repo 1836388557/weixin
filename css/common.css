@@ -1,0 +1,79 @@
+#top {
+    width: 100%;
+    height: 80rem;
+    background-color: rgb(237, 237, 237);
+    position: fixed;
+    top: 0;
+}
+
+#top #statuBar {
+    width: 100%;
+    height: 30rem;
+    display: block;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50rem;
+    border: 1rem solid rgb(207, 207, 207);
+    background: rgb(247, 247, 247);
+}
+
+#bottom #b_list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#bottom #b_list div {
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bottom #b_list div p:nth-of-type(1) {
+    font-size: 25rem;
+    position: relative;
+    top: 2rem;
+}
+
+#bottom #b_list div p:nth-of-type(2) {
+    font-size: 15rem;
+    color: black;
+}
+
+.b_active {
+    color: rgb(7, 193, 96);
+}
+
+.show {
+    display: block;
+}
+
+#contain {
+    padding-top: 80rem;
+    padding-bottom: 50rem;
+    height: 100%;
+    width: 100%;
+}
+
+.txl_separate {
+    height: 30rem;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+
+.fx_separate {
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+
+.wo_separate {
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}

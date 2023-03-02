@@ -1,0 +1,69 @@
+#top .top_fx {
+    font-size: 20rem;
+    margin-top: 10rem;
+    display: none;
+}
+
+#top .top_fx span {
+    margin-left: 180rem;
+}
+
+#top .top_fx i {
+    font-size: 24rem;
+}
+
+#top .top_fx i:nth-of-type(1) {
+    margin-left: 90rem;
+}
+
+#top .top_fx i:nth-of-type(2) {
+    margin-left: 8rem;
+    font-size: 28rem;
+}
+
+#contain .c_fx {
+    height: 100%;
+    width: 100%;
+    background: rgb(237, 237, 237);
+    display: none;
+}
+
+#contain .c_fx ul li {
+    width: 100%;
+    height: 60rem;
+    background-color: rgb(255, 255, 255);
+}
+
+#contain .c_fx ul li>p {
+    font-size: 30rem;
+    line-height: 60rem;
+    float: left;
+    margin: 0 20rem;
+}
+
+#contain .c_fx ul li>div {
+    float: left;
+    border-bottom: 1rem solid rgb(224, 224, 224);
+    width: 300rem;
+    height: 60rem;
+    font-size: 18rem;
+    line-height: 50rem;
+}
+
+#contain .c_fx ul li>div>img {
+    float: right;
+    height: 45rem;
+    width: 45rem;
+    border-radius: 3rem;
+    margin: 5rem;
+}
+
+#contain .c_fx ul li div>p:nth-of-type(1) {
+    margin-top: 5rem;
+    float: left;
+}
+
+#contain .c_fx ul li div>p:nth-of-type(2) {
+    margin-top: 5rem;
+    float: right;
+}
